@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.myBox {
+    width: 400px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 2%;
+}
+
+.unpaidHeading {
+    color: rgb(255 76 0);
+    font-size: 1.6vmax;
+}
+
+.imgBox {
+    height: 105px;
+    width: 100px;
+    margin-bottom: 10%;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.contactHeading {
+    text-align: center;
+    color: rgb(255 76 0);
+    font-size: 2vmax;
+    margin-bottom: 10px;
+}
+
+.iconAndText {
+    display: flex;
+    margin: 8px;
+}
+
+.iconAndText p {
+    font-size: 1.3vmax;
+    color: white;
+    margin-left: 5px;
+}
+
+.iconAndText img {
+    height: 30px;
+    width: 28px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.inputForm {
+    border: 2px solid rgba(2, 16, 16, 0.751);
+    border-radius: 4px;
+    height: 8vh;
+    padding: 4px;
+    font-size: 1.3vmax;
+    margin: 3px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+}
+
+.inputTextArea {
+    height: 6vmax;
+}
+
+.footerPages {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.companyHeading {
+    color: rgb(255 76 0);
+    margin-left: 4px;
+    margin-bottom: 2%;
+    padding: 3px;
+    font-size: 2vmax;
+}
+
+.footerPages a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vmax;
+    margin: 4px;
+    padding: 3px;
+}
+
+.imgLogoFooter {
+    display: flex;
+    margin-top: 30%;
+}
+
+.imgLogoFooter img {
+    height: 40px;
+    width: 38px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+/* responsive media query */
+
+@media only screen and (max-width:900px) {
+    .unpaidHeading {
+        font-size: 1.2rem;
+    }
+
+    .companyHeading {
+        font-size: 1.6rem;
+    }
+
+    .contactHeading {
+        font-size: 1.6rem;
+    }
+
+    .iconAndText p {
+        font-size: 1rem;
+    }
+
+    .inputTextArea {
+        height: 16vh;
+    }
+
+    .inputForm {
+        font-size: 1rem;
+    }
+
+    .footerPages a {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .mainContainer {
+        display: block;
+    }
+
+    .myBox {
+        width: 100%;
+        height: 50vh;
+        margin: 0px;
+    }
+
+    .imgBox {
+        margin: 0px auto;
+    }
+
+    .imgLogoFooter {
+        margin-top: 0px;
+        justify-content: center;
+    }
+}
